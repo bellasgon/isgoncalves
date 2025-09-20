@@ -19,8 +19,8 @@ website:
     This website is built with [Quarto](https://quarto.org/) and code inspired by
     [Carlisle Rainey](https://github.com/carlislerainey/carlislerainey.github.io/).
   favicon: favicon.ico
-  #site-url: https://www.igoncalves.com
-  #google-analytics: "G-8QK4H55LNT"
+  site-url: https://www.igoncalves.com
+  google-analytics: "G-8QK4H55LNT"
   twitter-card:
     creator: "@carlislerainey"
     image: "/profile-tw.png"
@@ -78,6 +78,7 @@ format:
     toc: true
 
 editor: source
+
 
 
 
