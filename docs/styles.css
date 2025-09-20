@@ -1,0 +1,73 @@
+/* ====== Research — igual ao exemplo do screenshot ====== */
+
+/* altura de linha um pouco mais solta no bloco */
+#research { line-height: 1.6; }
+
+/* styles.css */
+.navbar .navbar-nav .nav-link img {
+  height: 1.1rem;
+  width: auto;
+  vertical-align: -0.2em;
+}
+
+
+/* usamos <ul class="pub-list"> para manter os bullets */
+.pub-list{
+  list-style: disc !important;     /* reativa bullets */
+  padding-left: 1.25rem;           /* recuo do bullet */
+  margin: 0;
+}
+.pub-list > li{ margin: 0; padding: 0; }
+.pub-list li::marker{ color:#6b7280; font-size:.9em; }  /* marcador discreto */
+
+/* cada item com respiro e “hairline” entre eles */
+.pub{
+  padding: .75rem 0 1rem;          /* espaço vertical do item */
+  border-bottom: 1px solid #e5e7eb;
+}
+.pub:last-child{ border-bottom: 0; }
+
+/* título, meta, chips e parágrafo/abstract como no exemplo */
+.pub-title{
+  margin: 0 0 .25rem;
+  font-size: 1.125rem;             /* ~18px */
+  font-weight: 600;
+}
+.pub-title a{ text-decoration: none; }
+
+.pub-meta{
+  margin: 0 0 .4rem;
+  font-size: .95rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+/* linha dos “chips” (Preprint/OSF/DOI) */
+.pub-badges{
+  margin: .25rem 0 .5rem;
+  display: flex;
+  gap: .4rem;
+  flex-wrap: wrap;
+}
+.btn-xs{
+  padding: .125rem .5rem;          /* pequeno */
+  font-size: .875rem;              /* ~14px */
+  line-height: 1.1;
+  border: 1px solid #e5e7eb;
+  border-radius: .5rem;
+  background: #f9fafb;
+}
+
+/* abstract / citação curta */
+.pub-abstract,
+.apa-citation{
+  margin-top: .35rem;
+  color: #374151;
+  line-height: 1.5;
+  font-size: .95rem;               /* apa-citation pode ser .88-.9rem se quiser mais leve */
+}
+
+/* garante que parágrafos internos não abram “buracos” */
+.pub p{ margin: 0; }
+
+

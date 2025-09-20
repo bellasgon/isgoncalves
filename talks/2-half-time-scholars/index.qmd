@@ -1,0 +1,50 @@
+---
+title: "Participation in the Half Time Scholars podcast"
+image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/20/2e/80/202e80df-a4fb-2fcb-3cb8-c51a8e551dd0/mza_4273395202376591671.jpg/540x540bb.webp
+twitter-card:
+  card-style: "summary_large_image"
+toc: false
+---
+
+```{=html}
+<style>
+/* Container do player com margem só embaixo */
+.podcast-embed{
+  max-width:660px;
+  margin: 0 auto 1rem;
+}
+/* Referências com hanging indent (estilo APA) */
+.apa-list p{
+  margin: 0 0 .6rem 0;
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+}
+.apa-list a{
+  text-decoration: none;
+}
+</style>
+```
+
+On this episode, I spoke about my PhD research on the stereotypical framing of migrants and refugees in media coverage comparing Brazil and the United Kingdom (UK). 
+
+::: callout-note
+## Episode based on my dissertation
+
+During my PhD, I have published four different papers on migration framing. You can find the full details of the papers below the episode. 
+::: 
+
+<div style="max-width:660px;margin:0 auto">
+  <iframe
+    src="https://embed.podcasts.apple.com/at/podcast/half-time-scholars-how-media-contributes-to-the/id1493439125?i=1000587897613"
+    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+    style="width:100%;height:175px;border:0;border-radius:10px"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+**Dissertation Papers**
+
+<div class="apa-list"> <p>Gonçalves, I., &amp; David, Y. (2025). Threats, victims, or heroes? Media frames about migration in the United Kingdom and Brazil. <em>International Communication Gazette, 87</em>(3). <a href="https://doi.org/10.1177/17480485241249007">https://doi.org/10.1177/17480485241249007</a>.</p> <p>Gonçalves, I. (2024). Promoting hate speech by dehumanizing metaphors of immigration. <em>Journalism Practice, 18</em>(2), 265–282. <a href="https://doi.org/10.1080/17512786.2023.2212661">https://doi.org/10.1080/17512786.2023.2212661</a>.</p> <p>Gonçalves, I. (2024). Sources and framing: How the citation of different actors predicts the tone of representation on migration issues. <em>Journal of Ethnic and Migration Studies</em>. <a href="https://doi.org/10.1080/1369183X.2023.2227346">https://doi.org/10.1080/1369183X.2023.2227346</a>.</p> <p>Gonçalves, I., &amp; David, Y. (2022). A systematic literature review of the representations of migration in Brazil and the United Kingdom [Una revisión sistemática de la literatura de las representaciones de la migración en Brasil y Reino Unido]. <em>Comunicar, 71</em>. <a href="https://doi.org/10.3916/C71-2022-04">https://doi.org/10.3916/C71-2022-04</a>.</p> </div> 
+
