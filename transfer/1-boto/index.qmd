@@ -19,11 +19,12 @@ InfoAmazonia’s WhatsApp bot combines journalism, innovation, and technology to
 Knowledge about the Amazon can—and should—be within everyone’s reach! With BOTO, you can stay informed, understand, share, and take action—all from your phone.
 
 ::: callout-note
-## Research Team:
+## My role in Research:
 
 I participated in this project as part of the research team. Using value-sensitive design, we identified the values desired by stakeholders in a technology of this kind to support its development. To this end, we collected data through focus groups with the audience of InfoAmazonia. These findings informed the creation of the WhatsApp bot. The research had two goals: first, to contribute to the bot’s development; and second, to advance scholarship on the use of generative AI in journalism.
 
 :::
+
 
 
 
