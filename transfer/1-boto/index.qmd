@@ -21,14 +21,9 @@ I participated in this project as part of the research team. Using value-sensiti
 :::
 
 ::: {.ratio .ratio-16x9}
-<iframe
-  src="https://youtu.be/Nnts_T6uN1s"
-  title="YouTube video"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen
-  loading="lazy">
-</iframe>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/Nnts_T6uN1s" title="BOTO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 :::
+
 
 
 
