@@ -1,0 +1,35 @@
+---
+title: "Researcher in the project BOTO – The Amazon WhatsApp Bot"
+image: boto.png
+twitter-card:
+  card-style: "summary_large_image"
+---
+
+[BOTO](https://infoamazonia.org/en/project/boto/) is an innovative tool created by [InfoAmazonia](https://infoamazonia.org)that delivers content about the Amazon region directly to audiences on WhatsApp, using artificial intelligence (AI) to make access to reliable, contextualized, and personalized information easier.
+
+This WhatsApp bot combines journalism, innovation, and technology to offer an informative experience tailored to each user, promoting awareness and engagement with the challenges facing the Amazon.
+
+InfoAmazonia’s WhatsApp bot combines journalism, innovation, and technology to offer an informative experience tailored to each user, promoting awareness and engagement with the challenges facing the Amazon.
+
+Knowledge about the Amazon can—and should—be within everyone’s reach! With BOTO, you can stay informed, understand, share, and take action—all from your phone.
+
+::: callout-note
+## Research Team:
+
+I participated in this project as part of the research team. Using value-sensitive design, we identified the values desired by stakeholders in a technology of this kind to support its development. To this end, we collected data through focus groups with the audience of InfoAmazonia. These findings informed the creation of the WhatsApp bot. The research had two goals: first, to contribute to the bot’s development; and second, to advance scholarship on the use of generative AI in journalism.
+
+:::
+
+::: {.ratio .ratio-16x9}
+<iframe
+  src="https://youtu.be/Nnts_T6uN1s"
+  title="YouTube video"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  loading="lazy">
+</iframe>
+:::
+
+
+
+

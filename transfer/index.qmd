@@ -1,0 +1,32 @@
+---
+title: "Technology Transfer"
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+          .quarto-grid img.card-img-top,
+          .quarto-grid .thumbnail-image,
+          .quarto-grid .listing-image {
+            height: 330px;
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+            background: #f8f9fa;
+          }
+        </style>
+listing:
+  id: grids
+  type: grid
+  sort: "date desc"
+  grid-columns: 1
+  image-height: 330px
+---
+
+
+::: {#grids}
+:::
+
+
+
+

@@ -98,6 +98,15 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8QK4H55LNT"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8QK4H55LNT', { 'anonymize_ip': true});
+</script>
 <style>
   .quarto-grid img.card-img-top,
   .quarto-grid .thumbnail-image,
@@ -142,11 +151,15 @@ window.Quarto = {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Talks – Isabella Gonçalves">
-<meta property="og:image" content="../talks/1-lets-talk-about/lets.png">
+<meta property="og:image" content="https://www.igoncalves.com/talks/1-lets-talk-about/lets.png">
 <meta property="og:site_name" content="Isabella Gonçalves">
+<meta property="og:image:height" content="419">
+<meta property="og:image:width" content="553">
 <meta name="twitter:title" content="Talks – Isabella Gonçalves">
-<meta name="twitter:image" content="/profile-tw.png">
+<meta name="twitter:image" content="https://www.igoncalves.com/profile-tw.png">
 <meta name="twitter:creator" content="@carlislerainey">
+<meta name="twitter:image-height" content="1280">
+<meta name="twitter:image-width" content="1280">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -181,7 +194,11 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../talks/index.html" aria-current="page"> 
-<span class="menu-text">Talks</span></a>
+<span class="menu-text">Media Appearence</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../transfer/index.html"> 
+<span class="menu-text">Technology Transfer</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -245,7 +262,7 @@ window.Quarto = {
 
 <div id="listing-grids" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1758122251581" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1758330356000" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
 <a href="../talks/1-lets-talk-about/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -267,7 +284,7 @@ Crises have deepened political divisions, and social media has amplified these t
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1758121980381" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1758330356000" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
 <a href="../talks/2-half-time-scholars/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -389,7 +406,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.igoncalves\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

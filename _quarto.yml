@@ -68,7 +68,9 @@ website:
       - href: teaching/index.qmd
         text: Teaching
       - href: talks/index.qmd
-        text: Talks
+        text: Media Appearence
+      - href: transfer/index.qmd
+        text: Technology Transfer
 
 
 format:
