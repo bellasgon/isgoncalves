@@ -44,6 +44,8 @@ toc: false
 
 If want to stay up-to-date on my work, follow me on [Google Scholar](https://scholar.google.com/citations?user=GfW98WwAAAAJ&hl=en). 
 
+::: {.panel-tabset}
+
 
 ## Published Papers
 
