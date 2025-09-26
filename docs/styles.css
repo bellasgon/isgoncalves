@@ -1,121 +1,68 @@
-/* ====== Research — cards como no exemplo ====== */
-
-/* respiro geral da seção */
-#research { line-height: 1.6; }
-
-/* navbar icons (mantido) */
-.navbar .navbar-nav .nav-link img {
-  height: 1.1rem;
-  width: auto;
-  vertical-align: -0.2em;
-}
-
-/* tamanho dos botões “pílula” (mantido) */
-.btn-xs{
-  padding: .125rem .5rem;
-  font-size: .875rem;
-  line-height: 1.1;
-  border: 1px solid #e5e7eb;
-  border-radius: .5rem;
-  background: #f9fafb;
-}
-
-/* ====== NOVO: grid + cards ====== */
-
-/* grid de publicações */
+/* ========== Base (funciona no Quarto) ========== */
 .pub-grid{
-  display: grid;
-  grid-template-columns: 1fr;   /* 1 coluna no mobile */
-  gap: 1rem;
+  display:grid;
+  grid-template-columns:1fr;   /* mobile */
+  gap:1rem;
 }
-
-/* card */
 .pub-card{
-  background: var(--bs-body-bg, #fff);
-  border: 1px solid var(--bs-border-color, #e6e6e6);
-  border-radius: 14px;
-  padding: 18px 20px;
-  box-shadow: 0 2px 12px rgba(0,0,0,.04);
+  background:#fff;
+  border:1px solid #e6e6e6;
+  border-radius:14px;
+  padding:18px 20px;
+  box-shadow:0 2px 12px rgba(0,0,0,.04);
 }
-
-/* topo do card: título à esquerda + link à direita */
 .pub-top{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 6px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:6px;
 }
-
-/* título */
 .pub-title{
-  margin: 0;
-  font-size: 1.25rem;     /* ~20px */
-  font-weight: 700;
-  line-height: 1.25;
+  margin:0;
+  font-size:1.25rem;
+  font-weight:700;
+  line-height:1.25;
 }
-.pub-title a{ text-decoration: none; }
+.pub-title a{ text-decoration:none; }
+.pub-ext{ white-space:nowrap; font-weight:600; text-decoration:none; }
+.pub-sub{ margin-bottom:.25rem; color:#6b7280; }
 
-/* link “View Publication” no canto superior direito */
-.pub-ext{
-  white-space: nowrap;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-/* subtítulo: periódico • ano */
-.pub-sub{
-  margin-bottom: .25rem;
-  color: var(--bs-secondary-color, #6b7280);
-}
-
-/* badges simples (Q1, Open Access, etc.) */
 .pill{
-  display: inline-block;
-  padding: 4px 10px;
-  border: 1px solid var(--bs-border-color, #e6e6e6);
-  border-radius: 999px;
-  background: var(--bs-light-bg-subtle, #f7f7f9);
-  font-size: .85rem;
-  margin-right: .4rem;
-  margin-bottom: .4rem;
+  display:inline-block;
+  padding:4px 10px;
+  border:1px solid #e6e6e6;
+  border-radius:999px;
+  background:#f7f7f9;
+  font-size:.85rem;
+  margin-right:.4rem;
+  margin-bottom:.4rem;
 }
-
-/* referência APA / texto principal do card */
 .pub-apa{
-  margin: .5rem 0 .25rem;
-  color: var(--bs-secondary-color, #4b5563);
-  line-height: 1.5;
-  font-size: .95rem;
+  margin:.5rem 0 .25rem;
+  color:#4b5563;
+  line-height:1.5;
+  font-size:.95rem;
 }
-
-/* grupo de links secundários em “pílulas clicáveis” */
 .pub-links{
-  display: flex;
-  flex-wrap: wrap;
-  gap: .4rem;
-  margin: .5rem 0 .25rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem;
+  margin:.5rem 0 .25rem;
 }
 .pill-link{
-  display: inline-block;
-  padding: 4px 10px;
-  border: 1px solid var(--bs-border-color, #e6e6e6);
-  border-radius: 999px;
-  background: var(--bs-body-bg, #fff);
-  text-decoration: none;
-  font-size: .85rem;
+  display:inline-block;
+  padding:4px 10px;
+  border:1px solid #e6e6e6;
+  border-radius:999px;
+  background:#fff;
+  text-decoration:none;
+  font-size:.85rem;
 }
-.pill-link i{ margin-right: .35rem; }
+.pill-link i{ margin-right:.35rem; }
+.pub-note{ margin:.25rem 0 0; font-size:.95rem; color:#6b7280; }
 
-/* nota final opcional */
-.pub-note{
-  margin: .25rem 0 0;
-  font-size: .95rem;
-  color: var(--bs-secondary-color, #6b7280);
-}
-
-/* responsivo: 2 colunas em telas >= 992px (ajuste se quiser 3 colunas em xl) */
+/* 2 colunas em telas largas */
 @media (min-width: 992px){
-  .pub-grid{ grid-template-column
-
+  .pub-grid{ grid-template-colum
 
