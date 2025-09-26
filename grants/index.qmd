@@ -1,0 +1,20 @@
+---
+title: "Grants and Awards"
+listing:
+  - id: grants
+    contents: grants.yaml        # arquivo YAML com a lista no topo
+    template: grants.ejs
+    # opcional: filtrar só Grant/Award
+    # where: "type == 'Grant' || type == 'Award'"
+    filter-ui: false
+    sort: "begin desc"
+    sort-ui: false
+---
+
+Recognition and research funding supporting work in political communication and journalism studies.
+
+:::{#grants}
+:::
+
+
+

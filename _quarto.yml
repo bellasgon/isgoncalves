@@ -65,6 +65,8 @@ website:
         text: Home
       - href: research/index.qmd
         text: Research
+      - href: grants/index.qmd
+        text: Grants & Awards  
       - href: teaching/index.qmd
         text: Teaching
       - href: talks/index.qmd

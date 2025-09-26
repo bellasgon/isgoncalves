@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Isabella Gonçalves</title>
+<title>Grants and Awards – Isabella Gonçalves</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-grants .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-funder','listing-begin','listing-description','listing-amount','listing-end',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-funder","listing-begin","listing-description","listing-amount","listing-end"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-grants'] = new List('listing-grants', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8QK4H55LNT"></script>
 
 <script type="text/javascript">
@@ -76,29 +108,57 @@ gtag('js', new Date());
 gtag('config', 'G-8QK4H55LNT', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Isabella Gonçalves">
-<meta property="og:image" content="https://www.igoncalves.com/profile.png">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Grants and Awards – Isabella Gonçalves">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Isabella Gonçalves">
-<meta property="og:image:height" content="1280">
-<meta property="og:image:width" content="1280">
-<meta name="twitter:title" content="Isabella Gonçalves">
-<meta name="twitter:image" content="https://www.igoncalves.com/profile.png">
+<meta name="twitter:title" content="Grants and Awards – Isabella Gonçalves">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://www.igoncalves.com/profile-tw.png">
 <meta name="twitter:creator" content="@carlislerainey">
 <meta name="twitter:image-height" content="1280">
 <meta name="twitter:image-width" content="1280">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Isabella Gonçalves</span>
     </a>
   </div>
@@ -109,34 +169,34 @@ gtag('config', 'G-8QK4H55LNT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research/index.html"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./grants/index.html"> 
+    <a class="nav-link active" href="../grants/index.html" aria-current="page"> 
 <span class="menu-text">Grants &amp; Awards</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching/index.html"> 
+    <a class="nav-link" href="../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks/index.html"> 
+    <a class="nav-link" href="../talks/index.html"> 
 <span class="menu-text">Media Appearence</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./transfer/index.html"> 
+    <a class="nav-link" href="../transfer/index.html"> 
 <span class="menu-text">Technology Transfer</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="https://bsky.app/profile/igoncalves.com"> 
-<span class="menu-text"><img src=".\bluesky.svg" style="vertical-align:-0.2em" alt="Bluesky"></span></a>
+<span class="menu-text"><img src="..\bluesky.svg" style="vertical-align:-0.2em" alt="Bluesky"></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://orcid.org/0000-0002-6492-9236"> 
@@ -167,42 +227,320 @@ gtag('config', 'G-8QK4H55LNT', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="profile.png" class="about-image
-  rectangle " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Isabella Gonçalves</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:igoncalves@uni-mainz.de" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">email</span>
-  </a>
-  <a href="/cv.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-filetype-pdf"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I am a postdoctoral researcher at Johannes Gutenberg University Mainz, where my work focuses on digital political communication and journalism studies. Alongside my research, I serve as editor of the Political Communication Report and manage the websites and social media channels for the Political Communication divisions of APSA and ICA. I am also an active member of the DigiWorld network and the Digital Media and Society Observatory. I have expertise in data analysis, mixed-methods research, and project management.</p>
-<p>My research examines the structural and discursive factors that contribute to the establishment and reinforcement of social divisions. I focus on issues such as divisive and negative political discourse, the underrepresentation of marginalized groups in digital political communication and legacy news media, and journalism safety.</p>
-<p><strong>Research interests:</strong> political communication, journalism studies, journalism safety, othering of outgroups, divisive issues in public discourse.</p>
-</div></div>
+<h1 class="title">Grants and Awards</h1>
 </div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Recognition and research funding supporting work in political communication and journalism studies.</p>
+<div id="listing-grants" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<style>
+  /* lista limpa */
+  ul.list{list-style:none;margin:0;padding:0}
+
+  /* card amplo e arejado, com espaço entre cartões */
+  .grant-card{
+    border:1px solid var(--bs-border-color, #e9ecef);
+    border-radius: .9rem;
+    padding: 1.25rem 1.6rem;     /* respiro interno maior */
+    margin-bottom: 1rem;         /* espaço entre cartões */
+    background: var(--bs-body-bg);
+    box-shadow: 0 1px 2px rgba(0,0,0,.02);
+    transition: box-shadow .12s ease, transform .06s ease, border-color .12s ease;
+  }
+  .grant-card:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    border-color: var(--bs-border-color-translucent, #dfe3e6);
+  }
+  .grant-card:last-child{margin-bottom:0}
+
+  /* tipografia como no exemplo */
+  .grant-title{
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.35;
+    margin: 0;
+  }
+  .grant-meta{
+    color: var(--bs-secondary-color);
+    font-size: .95rem;
+    margin-top: .35rem;
+  }
+  .grant-description{
+    color: var(--bs-secondary-color);
+    font-size: 1rem;
+    line-height: 1.6;     /* mais confortável, como no exemplo */
+    margin-top: .8rem;
+  }
+
+  /* badge do valor/ícone à direita com cor primária do tema */
+  .amount-badge, .icon-badge{
+    display: inline-flex; align-items: center; gap: .4rem;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: .4rem .85rem;
+    white-space: nowrap;
+    color: var(--bs-primary);
+    background: color-mix(in oklab, var(--bs-primary) 10%, transparent);
+    border: 1px solid color-mix(in oklab, var(--bs-primary) 70%, var(--bs-body-bg));
+    font-size: .95rem;
+  }
+  .icon-badge{ font-weight: 600; }
+  .amount-badge i, .icon-badge i{ opacity: .9; }
+</style>
+
+<ul class="list">
+  
+    <li data-index="0" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">Research Stay in Valencia</h3>
+
+          
+            <div class="grant-meta">Johannes Gutenberg University and Valencia University • 2025</div>
+          
+
+          
+            <div class="grant-description">Fellowship supporting research stay in Valencia, covering €350 for flight as well as meals and accommodation.</div>
+          
+        </div>
+
+        
+          <div class="icon-badge" title="Award">
+            <i class="bi bi-trophy"></i>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="1" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">Minerva Short-Term Research Fellowship</h3>
+
+          
+            <div class="grant-meta">2023</div>
+          
+
+          
+            <div class="grant-description">Fellowship for conducting a joint research project with Dr. Yossi David at Ben Gurion University, in Israel</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>€1,050</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="2" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">Political Communication Division Travel Grant</h3>
+
+          
+            <div class="grant-meta">2023</div>
+          
+
+          
+            <div class="grant-description">Travel Grant awarded for presenting a paper at the International Communication Association Conference in Toronto</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>€400</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="3" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">DAAD Travel Grant</h3>
+
+          
+            <div class="grant-meta">2022</div>
+          
+
+          
+            <div class="grant-description">Travel Grant awarded for presenting a paper at the International Communication Association Conference in Paris</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>€965</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="4" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">DAAD Doctoral Scholarship</h3>
+
+          
+            <div class="grant-meta">2020–2024</div>
+          
+
+          
+            <div class="grant-description">Scholarship awarded for writing the PhD dissertation</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>€64,600</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="5" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">DAAD German Winter Course</h3>
+
+          
+            <div class="grant-meta">2019</div>
+          
+
+          
+            <div class="grant-description">Scholarship awarded for an intensive German course</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>€3,450</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="6" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">Honorable Mention - 34th Human Rights Journalism Award</h3>
+
+          
+            <div class="grant-meta">OAB, Brazil • 2018</div>
+          
+
+          
+            <div class="grant-description">Honorable Mention awarded for the book publication 968, de Maio a Dezembro: Jornalismo, Imaginário e Memória</div>
+          
+        </div>
+
+        
+          <div class="icon-badge" title="Award">
+            <i class="bi bi-trophy"></i>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="7" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">FAPEMIG Master’s Fellowship</h3>
+
+          
+            <div class="grant-meta">2018–2019</div>
+          
+
+          
+            <div class="grant-description">Scholarship awarded for the master studies</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>R$36,000</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="8" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">Scholarship for Exchange Studies in Germany</h3>
+
+          
+            <div class="grant-meta">UFJF • 2016–2017</div>
+          
+
+          
+            <div class="grant-description">Exchange studies at Ruhr University Bochum</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>R$20,000</span>
+          </div>
+        
+      </div>
+    </li>
+  
+    <li data-index="9" class="grant-card">
+      <div class="d-flex justify-content-between align-items-start gap-3">
+        <div class="flex-grow-1">
+          <h3 class="grant-title anchored">Undergraduate Research Scholarship</h3>
+
+          
+            <div class="grant-meta">PET • 2015–2017</div>
+          
+
+          
+            <div class="grant-description">Student Assistant in multiple research projects</div>
+          
+        </div>
+
+        
+          <div class="amount-badge">
+            <i class="bi bi-cash-coin"></i><span>R$400 monthly</span>
+          </div>
+        
+      </div>
+    </li>
+  
+</ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
@@ -228,6 +566,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
