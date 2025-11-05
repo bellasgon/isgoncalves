@@ -1,5 +1,5 @@
 ---
-title: "Technology Transfer"
+title: "Practical Applications"
 format:
   html:
     include-in-header:

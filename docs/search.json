@@ -2,9 +2,9 @@
   {
     "objectID": "transfer/index.html",
     "href": "transfer/index.html",
-    "title": "Technology Transfer",
+    "title": "Practical Applications",
     "section": "",
-    "text": "Researcher in the project BOTO – The Amazon WhatsApp Bot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Researcher in the project BOTO – The Amazon WhatsApp Bot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDevelopment of the App Polcomm Teaching\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/index.html",
@@ -61,5 +61,12 @@
     "title": "Researcher in the project BOTO – The Amazon WhatsApp Bot",
     "section": "",
     "text": "BOTO is an innovative tool created by InfoAmazonia that delivers content about the Amazon region directly to audiences on WhatsApp, using artificial intelligence (AI) to make access to reliable, contextualized, and personalized information easier.\nThis WhatsApp bot combines journalism, innovation, and technology to offer an informative experience tailored to each user, promoting awareness and engagement with the challenges facing the Amazon.\nInfoAmazonia’s WhatsApp bot combines journalism, innovation, and technology to offer an informative experience tailored to each user, promoting awareness and engagement with the challenges facing the Amazon.\nKnowledge about the Amazon can—and should—be within everyone’s reach! With BOTO, you can stay informed, understand, share, and take action—all from your phone.\n\n\n\n\n\n\nMy role in Research:\n\n\n\nI participated in this project as part of the research team. Using value-sensitive design, we identified the values desired by stakeholders in a technology of this kind to support its development. To this end, we collected data through focus groups with the audience of InfoAmazonia. These findings informed the creation of the WhatsApp bot. The research had two goals: first, to contribute to the bot’s development; and second, to advance scholarship on the use of generative AI in journalism."
+  },
+  {
+    "objectID": "transfer/2 - polcommdatabase/index.html",
+    "href": "transfer/2 - polcommdatabase/index.html",
+    "title": "Development of the App Polcomm Teaching",
+    "section": "",
+    "text": "The Political Communication Teaching Database is a collaborative repository supported by the APSA and ICA Political Communication Divisions and designed by Michael Bossetta and I. Our aim is to facilitate the sharing and exploration of teaching materials in political communication. It allows teachers to upload and access syllabi and course materials across a diverse range of subfields.\nUsers can contribute materials via a shared link (e.g., Google Drive, Dropbox), and all entries are organized in an interactive dashboard, enabling easy filtering by subject, language, and instruction level. This database serves as a resource for scholars looking to enhance their political communication courses with high-quality, peer-shared content.\n\n\n\n\n\n\nMy role in this project:\n\n\n\nIn this project, I was responsible for coding the back-end and the front-end of this interactive dashboard. Initially, I used shiny to develop it. But after I adapted the code to Apps Script in Google to allow html incorporation."
   }
 ]
