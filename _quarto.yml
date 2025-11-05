@@ -72,7 +72,7 @@ website:
       - href: talks/index.qmd
         text: Media Appearence
       - href: transfer/index.qmd
-        text: Technology Transfer
+        text: Practical Applications
 
 
 format:
