@@ -7,18 +7,18 @@
     ]
   },
   {
-    "listing": "/research/index.html",
-    "items": []
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/1-lets-talk-about/index.html",
+      "/talks/2-half-time-scholars/index.html"
+    ]
   },
   {
     "listing": "/grants/index.html",
     "items": []
   },
   {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/1-lets-talk-about/index.html",
-      "/talks/2-half-time-scholars/index.html"
-    ]
+    "listing": "/research/index.html",
+    "items": []
   }
 ]
