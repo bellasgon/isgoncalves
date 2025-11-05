@@ -1,0 +1,27 @@
+---
+title: "Development of the App Polcomm Teaching"
+image: polcomm.png
+twitter-card:
+  card-style: "summary_large_image"
+---
+
+
+The [Political Communication Teaching Database](https://politicalcommunication.org/resources/) is a collaborative repository supported by the APSA and ICA Political Communication Divisions and designed by [Michael Bossetta](https://michaelbossetta.com/) and I. Our aim is to facilitate the sharing and exploration of teaching materials in political communication. It allows teachers to upload and access syllabi and course materials across a diverse range of subfields.
+
+Users can contribute materials via a shared link (e.g., Google Drive, Dropbox), and all entries are organized in an interactive dashboard, enabling easy filtering by subject, language, and instruction level. This database serves as a resource for scholars looking to enhance their political communication courses with high-quality, peer-shared content.
+
+
+::: callout-note
+## My role in this project:
+
+In this project, I was responsible for coding the back-end and the front-end of this interactive dashboard. Initially, I used shiny to develop it. But after I adapted the code to Apps Script in Google to allow html incorporation. 
+:::
+
+
+<p align="center">
+  <img src="polcomm2.png" style="max-width: 80%; height: auto;">
+</p>
+
+
+
+
