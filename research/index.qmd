@@ -69,12 +69,6 @@ If want to stay up-to-date on my work, follow me on [Google Scholar](https://sch
 :::{#report}
 :::
 
-
-## Forthcoming
-
-:::{#forthcoming-papers}
-:::
-
 ## Book Chapters
 
 :::{#book-chapters}
