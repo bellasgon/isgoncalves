@@ -38,7 +38,19 @@ listing:
     sort: "date desc" 
     sort-ui: false
     #categories: true
-toc: false    
+    
+  - id: report
+    include: 
+      type: "Report"
+    contents: papers.yaml
+    template: papers.ejs
+    #filter-ui: true
+    sort: "date desc" 
+    sort-ui: false
+    #categories: true
+
+
+toc: false
 #page-layout: full
 ---
 
@@ -51,6 +63,12 @@ If want to stay up-to-date on my work, follow me on [Google Scholar](https://sch
 
 :::{#published-papers}
 :::
+
+## Report
+
+:::{#report}
+:::
+
 
 ## Forthcoming
 

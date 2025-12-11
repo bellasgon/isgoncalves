@@ -107,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-status','listing-pubclosed','listing-apa',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-status","listing-pubclosed","listing-apa"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-journal','listing-pubclosed','listing-apa','listing-pubopen','listing-note',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-journal','listing-pubclosed','listing-apa','listing-pubopen',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-journal","listing-pubclosed","listing-apa","listing-pubopen","listing-note"],
+      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-journal","listing-pubclosed","listing-apa","listing-pubopen"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -163,13 +163,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-apa',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-pubclosed','listing-apa',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-apa"],
+      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-pubclosed","listing-apa"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-book-chapters'] = new List('listing-book-chapters', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-report .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-journal','listing-pubopen','listing-apa','listing-note',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-journal","listing-pubopen","listing-apa","listing-note"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-report'] = new List('listing-report', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -336,7 +364,7 @@ window.Quarto = {
 
 <p>If want to stay up-to-date on my work, follow me on <a href="https://scholar.google.com/citations?user=GfW98WwAAAAJ&amp;hl=en">Google Scholar</a>.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Published Papers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Forthcoming</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Book Chapters</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Published Papers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Report</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Forthcoming</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Book Chapters</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="listing-published-papers" class="quarto-listing quarto-listing-container-custom">
@@ -385,6 +413,45 @@ window.Quarto = {
     
       <article class="pub-card" data-index="1">
         <div class="pub-top">
+          <h3 class="pub-title anchored">Empowerment Through Sustainable Journalism Practices in Africa: A Walkthrough of EcoNai+ and Ushahidi Digital Platforms</h3>
+
+          
+          
+            <a class="pub-ext" href="https://doi.org/10.1080/17512786.2024.2399567">
+              View Publication <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          
+        </div>
+
+        <div class="pub-sub text-muted">
+          <em>Journalism Practice</em>, 1–21 • 
+          2025
+        </div>
+
+        <div class="pub-badges">
+          
+          <span class="pill">Open Access</span>
+        </div>
+
+        <p class="pub-apa">Elega, A.A., Munoriyarwa, A., Mesquita, L., Gonçalves, I. &amp; de-Lima-Santos, M. F. (2025). Empowerment Through Sustainable Journalism Practices in Africa: A Walkthrough of EcoNai+  and Ushahidi Digital Platforms. Journalism Practice, 19(12). https://doi.org/10.1080/17512786.2024.2399567.</p>
+
+        <div class="pub-links">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+
+        
+      </article>
+    
+      <article class="pub-card" data-index="2">
+        <div class="pub-top">
           <h3 class="pub-title anchored">Coping with Risk: The Three Spheres of Safety in Latin American Investigative Journalism</h3>
 
           
@@ -422,85 +489,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="2">
-        <div class="pub-top">
-          <h3 class="pub-title anchored">Letter from the Editor: Navigating Challenges and Opportunities in Teaching Political Communication</h3>
-
-          
-          
-            <a class="pub-ext" href="https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9">
-              View Publication <i class="bi bi-box-arrow-up-right"></i>
-            </a>
-          
-        </div>
-
-        <div class="pub-sub text-muted">
-          <em>Political Communication Report</em>, Summer (31) • 
-          2025
-        </div>
-
-        <div class="pub-badges">
-          
-          <span class="pill">Open Access</span>
-        </div>
-
-        <p class="pub-apa">Gonçalves, I. (2025). Letter from the Editor: Navigating challenges and opportunities in teaching political communication. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9.</p>
-
-        <div class="pub-links">
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        </div>
-
-        <p class="pub-note text-muted">Editorial</p>
-      </article>
-    
       <article class="pub-card" data-index="3">
-        <div class="pub-top">
-          <h3 class="pub-title anchored">The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation</h3>
-
-          
-          
-            <a class="pub-ext" href="https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6">
-              View Publication <i class="bi bi-box-arrow-up-right"></i>
-            </a>
-          
-        </div>
-
-        <div class="pub-sub text-muted">
-          <em>Political Communication Report</em>, Summer (31) • 
-          2025
-        </div>
-
-        <div class="pub-badges">
-          
-          <span class="pill">Open Access</span>
-        </div>
-
-        <p class="pub-apa">Bossetta, M., &amp; Gonçalves, I. (2025). The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6.</p>
-
-        <div class="pub-links">
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        </div>
-
-        <p class="pub-note text-muted">Report</p>
-      </article>
-    
-      <article class="pub-card" data-index="4">
         <div class="pub-top">
           <h3 class="pub-title anchored">Visual political communication on Instagram: A comparative study of Brazilian presidential elections</h3>
 
@@ -539,46 +528,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="5">
-        <div class="pub-top">
-          <h3 class="pub-title anchored">Empowerment Through Sustainable Journalism Practices in Africa: A Walkthrough of EcoNai+ and Ushahidi Digital Platforms</h3>
-
-          
-          
-            <a class="pub-ext" href="https://doi.org/10.1080/17512786.2024.2399567">
-              View Publication <i class="bi bi-box-arrow-up-right"></i>
-            </a>
-          
-        </div>
-
-        <div class="pub-sub text-muted">
-          <em>Journalism Practice</em>, 1–21 • 
-          2024
-        </div>
-
-        <div class="pub-badges">
-          
-          <span class="pill">Open Access</span>
-        </div>
-
-        <p class="pub-apa">Elega, A. A., Munoriyarwa, A., Mesquita, L., Gonçalves, I., &amp; de-Lima-Santos, M.-F. (2024). Empowerment through sustainable journalism practices in Africa: A walkthrough of EcoNai+ and Ushahidi digital platforms. <em>Journalism Practice</em>. https://doi.org/10.1080/17512786.2024.2399567.</p>
-
-        <div class="pub-links">
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        </div>
-
-        
-      </article>
-    
-      <article class="pub-card" data-index="6">
+      <article class="pub-card" data-index="4">
         <div class="pub-top">
           <h3 class="pub-title anchored">Evolution of Brazilian Democracy: Unveiling Election Dynamics in Political Issues, Negativity, and Acclaim</h3>
 
@@ -617,7 +567,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="7">
+      <article class="pub-card" data-index="5">
         <div class="pub-top">
           <h3 class="pub-title anchored">Divisive Issues, Polarization, and Users’ Reactions on Facebook: Comparing Campaigning in Latin America</h3>
 
@@ -656,7 +606,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="8">
+      <article class="pub-card" data-index="6">
         <div class="pub-top">
           <h3 class="pub-title anchored">Promoting Hate Speech by Dehumanizing Metaphors of Immigration</h3>
 
@@ -695,7 +645,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="9">
+      <article class="pub-card" data-index="7">
         <div class="pub-top">
           <h3 class="pub-title anchored">Sources and framing: how the citation of different actors predicts the tone of representation on migration issues</h3>
 
@@ -734,7 +684,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="10">
+      <article class="pub-card" data-index="8">
         <div class="pub-top">
           <h3 class="pub-title anchored">A systematic literature review of the representations of migration in Brazil and the United Kingdom [Una revisión sistemática de la literatura de las representaciones de la migración en Brasil y Reino Unido]</h3>
 
@@ -773,7 +723,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="11">
+      <article class="pub-card" data-index="9">
         <div class="pub-top">
           <h3 class="pub-title anchored">Opinião pública e enquadramentos sobre o COVID-19: uma análise do contexto prisional brasileiro</h3>
 
@@ -808,7 +758,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="12">
+      <article class="pub-card" data-index="10">
         <div class="pub-top">
           <h3 class="pub-title anchored">Narrativa e animação: representações da maternidade na websérie “Conception.”</h3>
 
@@ -847,7 +797,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="13">
+      <article class="pub-card" data-index="11">
         <div class="pub-top">
           <h3 class="pub-title anchored">A representação do imigrante pela imprensa brasileira: uma revisão de literatura</h3>
 
@@ -882,7 +832,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="14">
+      <article class="pub-card" data-index="12">
         <div class="pub-top">
           <h3 class="pub-title anchored">Modern Love: um caso de hibridização do jornalismo com a literatura</h3>
 
@@ -917,7 +867,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="15">
+      <article class="pub-card" data-index="13">
         <div class="pub-top">
           <h3 class="pub-title anchored">Notas sobre a memória participativa e digital</h3>
 
@@ -952,7 +902,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="16">
+      <article class="pub-card" data-index="14">
         <div class="pub-top">
           <h3 class="pub-title anchored">Do impresso ao digital: o processo de transição do New York Times</h3>
 
@@ -991,7 +941,7 @@ window.Quarto = {
         
       </article>
     
-      <article class="pub-card" data-index="17">
+      <article class="pub-card" data-index="15">
         <div class="pub-top">
           <h3 class="pub-title anchored">A memória participativa e a memória digital no contexto da Web 2.0: o caso da Segunda Guerra Mundial</h3>
 
@@ -1035,7 +985,152 @@ No matching items
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="listing-report" class="quarto-listing quarto-listing-container-custom">
+
+<div class="research-cards">
+  <div class="pub-grid">
+    
+      <article class="pub-card" data-index="0">
+        <div class="pub-top">
+          <h3 class="pub-title anchored">Letter from the Editor: Navigating Challenges and Opportunities in Teaching Political Communication</h3>
+
+          
+          
+            <a class="pub-ext" href="https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9">
+              View Publication <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          
+        </div>
+
+        <div class="pub-sub text-muted">
+          <em>Political Communication Report</em>, Summer (31) • 
+          2025
+        </div>
+
+        <div class="pub-badges">
+          
+          <span class="pill">Open Access</span>
+        </div>
+
+        <p class="pub-apa">Gonçalves, I. (2025). Letter from the Editor: Navigating challenges and opportunities in teaching political communication. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9.</p>
+
+        <div class="pub-links">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+
+        <p class="pub-note text-muted">Editorial</p>
+      </article>
+    
+      <article class="pub-card" data-index="1">
+        <div class="pub-top">
+          <h3 class="pub-title anchored">Letter from the Editor: Navigating Challenges and Opportunities in Teaching Political Communication</h3>
+
+          
+          
+            <a class="pub-ext" href="https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9">
+              View Publication <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          
+        </div>
+
+        <div class="pub-sub text-muted">
+          <em>Political Communication Report</em>, Summer (31) • 
+          2025
+        </div>
+
+        <div class="pub-badges">
+          
+          <span class="pill">Open Access</span>
+        </div>
+
+        <p class="pub-apa">Gonçalves, I. (2025). Letter from the Editor: Navigating challenges and opportunities in teaching political communication. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9.</p>
+
+        <div class="pub-links">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+
+        <p class="pub-note text-muted">Editorial</p>
+      </article>
+    
+      <article class="pub-card" data-index="2">
+        <div class="pub-top">
+          <h3 class="pub-title anchored">The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation</h3>
+
+          
+          
+            <a class="pub-ext" href="https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6">
+              View Publication <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          
+        </div>
+
+        <div class="pub-sub text-muted">
+          <em>Political Communication Report</em>, Summer (31) • 
+          2025
+        </div>
+
+        <div class="pub-badges">
+          
+          <span class="pill">Open Access</span>
+        </div>
+
+        <p class="pub-apa">Bossetta, M., &amp; Gonçalves, I. (2025). The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6.</p>
+
+        <div class="pub-links">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+
+        <p class="pub-note text-muted">Report</p>
+      </article>
+    
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div id="listing-forthcoming-papers" class="quarto-listing quarto-listing-container-custom">
+
+<div class="research-cards">
+  <div class="pub-grid">
+    
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div id="listing-book-chapters" class="quarto-listing quarto-listing-container-custom">
 
 <div class="research-cards">
   <div class="pub-grid">
@@ -1046,7 +1141,7 @@ No matching items
 
           
           
-            <a class="pub-ext" href="https://doi.org/10.31219/osf.io/emqc9">
+            <a class="pub-ext" href="https://www.elgaronline.com/display/book/9781035301447/vol1.chapter89.xml">
               View Publication <i class="bi bi-box-arrow-up-right"></i>
             </a>
           
@@ -1079,21 +1174,7 @@ No matching items
         
       </article>
     
-  </div>
-</div>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<div id="listing-book-chapters" class="quarto-listing quarto-listing-container-custom">
-
-<div class="research-cards">
-  <div class="pub-grid">
-    
-      <article class="pub-card" data-index="0">
+      <article class="pub-card" data-index="1">
         <div class="pub-top">
           <h3 class="pub-title anchored">Memorial Inumeráveis: combate ao negacionismo, à banalização da morte e a emergência de uma memória subterrânea</h3>
 
@@ -1128,7 +1209,7 @@ No matching items
         
       </article>
     
-      <article class="pub-card" data-index="1">
+      <article class="pub-card" data-index="2">
         <div class="pub-top">
           <h3 class="pub-title anchored">O local rememorado: a (re)construção de Nova York no Instagram @NYTArchives</h3>
 
@@ -1163,7 +1244,7 @@ No matching items
         
       </article>
     
-      <article class="pub-card" data-index="2">
+      <article class="pub-card" data-index="3">
         <div class="pub-top">
           <h3 class="pub-title anchored">Memória em tempos de arquivo digital: uma análise sobre a rememoração de 1968 no New York Times</h3>
 

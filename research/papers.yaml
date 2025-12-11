@@ -12,6 +12,20 @@
   pubclosed: "https://doi.org/10.1177/17480485241249007"
   apa: "Gonçalves, I., & David, Y. (2025). Threats, victims, or heroes? Media frames about migration in the United Kingdom and Brazil. <em>International Communication Gazette, 87</em>(3). https://doi.org/10.1177/17480485241249007"
 
+- title: "Empowerment Through Sustainable Journalism Practices in Africa: A Walkthrough of EcoNai+ and Ushahidi Digital Platforms"
+  type: "Published"
+  author:
+    - Adeola Abdulateef Elega
+    - Allen Munoriyarwa
+    - Lúcia Mesquita
+    - Isabella Gonçalves
+    - Mathias-Felipe de-Lima-Santos
+  year: 2025
+  journal: "<em>Journalism Practice</em>, 1–21"
+  pubopen: "https://doi.org/10.1080/17512786.2024.2399567"
+  apa: "Elega, A.A., Munoriyarwa, A., Mesquita, L., Gonçalves, I. & de-Lima-Santos, M. F. (2025). Empowerment Through Sustainable Journalism Practices in Africa: A Walkthrough of EcoNai+  and Ushahidi Digital Platforms. Journalism Practice, 19(12). https://doi.org/10.1080/17512786.2024.2399567"
+
+
 - title: "Coping with Risk: The Three Spheres of Safety in Latin American Investigative Journalism"
   type: "Published"
   author:
@@ -22,27 +36,6 @@
   journal: "<em>Journalism and Media</em>, 6(3), 121"
   pubopen: "https://doi.org/10.3390/journalmedia6030121"
   apa: "Mesquita, L., de-Lima-Santos, M.-F., & Gonçalves, I. (2025). Coping with risk: The three spheres of safety in Latin American investigative journalism. <em>Journalism and Media, 6</em>(3), 121. https://doi.org/10.3390/journalmedia6030121"
-
-- title: "Letter from the Editor: Navigating Challenges and Opportunities in Teaching Political Communication"
-  type: "Published"
-  author:
-    - Isabella Gonçalves
-  year: 2025
-  journal: "<em>Political Communication Report</em>, Summer (31)"
-  pubopen: "https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
-  apa: "Gonçalves, I. (2025). Letter from the Editor: Navigating challenges and opportunities in teaching political communication. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
-  note: "Editorial"
-
-- title: "The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation"
-  type: "Published"
-  author:
-    - Michael Bossetta
-    - Isabella Gonçalves
-  year: 2025
-  journal: "<em>Political Communication Report</em>, Summer (31)"
-  pubopen: "https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6"
-  apa: "Bossetta, M., & Gonçalves, I. (2025). The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6"
-  note: "Report"
 
 - title: "Visual political communication on Instagram: A comparative study of Brazilian presidential elections"
   type: "Published"
@@ -57,19 +50,6 @@
   journal: "<em>EPJ Data Science</em>, 13(1), 72"
   pubopen: "https://doi.org/10.1140/epjds/s13688-024-00502-0"
   apa: "de-Lima-Santos, M.-F., Gonçalves, I., Quiles, M. G., Mesquita, L., Ceron, W., & Couto Lorena, M. C. (2024). Visual political communication on Instagram: A comparative study of Brazilian presidential elections. <em>EPJ Data Science, 13</em>(1), 72. https://doi.org/10.1140/epjds/s13688-024-00502-0"
-
-- title: "Empowerment Through Sustainable Journalism Practices in Africa: A Walkthrough of EcoNai+ and Ushahidi Digital Platforms"
-  type: "Published"
-  author:
-    - Adeola Abdulateef Elega
-    - Allen Munoriyarwa
-    - Lúcia Mesquita
-    - Isabella Gonçalves
-    - Mathias-Felipe de-Lima-Santos
-  year: 2024
-  journal: "<em>Journalism Practice</em>, 1–21"
-  pubopen: "https://doi.org/10.1080/17512786.2024.2399567"
-  apa: "Elega, A. A., Munoriyarwa, A., Mesquita, L., Gonçalves, I., & de-Lima-Santos, M.-F. (2024). Empowerment through sustainable journalism practices in Africa: A walkthrough of EcoNai+ and Ushahidi digital platforms. <em>Journalism Practice</em>. https://doi.org/10.1080/17512786.2024.2399567"
 
 - title: "Evolution of Brazilian Democracy: Unveiling Election Dynamics in Political Issues, Negativity, and Acclaim"
   type: "Published"
@@ -147,7 +127,6 @@
   author:
     - Rodrigo Henriques
     - Isabella Gonçalves
-    - Talita Magnolo
   year: 2020
   journal: "<em>Pauta Geral – Estudos em Jornalismo</em>, 7(1), 1–15"
   apa: "Henriques, R., Gonçalves, I., & Magnolo, T. (2020). A representação do imigrante pela imprensa brasileira: uma revisão de literatura. <em>Pauta Geral – Estudos em Jornalismo, 7</em>(1), 1–15."
@@ -186,10 +165,56 @@
   year: 2019
   journal: "<em>Temática</em>, 15(9), 94–106"
   apa: "Gonçalves, I. (2019). A memória participativa e a memória digital no contexto da Web 2.0: o caso da Segunda Guerra Mundial. <em>Temática, 15</em>(9), 94–106."
-    
+
+
+# =======================
+# Report
+# =======================
+
+- title: "Letter from the Editor: Navigating Challenges and Opportunities in Teaching Political Communication"
+  type: "Report"
+  author:
+    - Isabella Gonçalves
+  year: 2025
+  journal: "<em>Political Communication Report</em>, Summer (31)"
+  pubopen: "https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
+  apa: "Gonçalves, I. (2025). Letter from the Editor: Navigating challenges and opportunities in teaching political communication. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
+  note: "Editorial"
+
+- title: "Letter from the Editor: Navigating Challenges and Opportunities in Teaching Political Communication"
+  type: "Report"
+  author:
+    - Isabella Gonçalves
+  year: 2025
+  journal: "<em>Political Communication Report</em>, Summer (31)"
+  pubopen: "https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
+  apa: "Gonçalves, I. (2025). Letter from the Editor: Navigating challenges and opportunities in teaching political communication. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
+  note: "Editorial"
+
+- title: "The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation"
+  type: "Report"
+  author:
+    - Michael Bossetta
+    - Isabella Gonçalves
+  year: 2025
+  journal: "<em>Political Communication Report</em>, Summer (31)"
+  pubopen: "https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6"
+  apa: "Bossetta, M., & Gonçalves, I. (2025). The Political Communication Teaching Database: A resource for pedagogical inspiration and innovation. <em>Political Communication Report</em>, Summer (31). https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103944-6"
+  note: "Report"
+
+
 # =======================
 # Chapters in collections  (use type = Book)
 # =======================
+
+- title: "Dehumanizing language"
+  type: "Book"
+  author:
+    - Isabella Gonçalves
+  year: 2025
+  pubclosed: "https://www.elgaronline.com/display/book/9781035301447/vol1.chapter89.xml"
+  apa: "Gonçalves, I. (2025). Dehumanizing language. In A. Nai, M. Grömping, & D. Wirz (Eds.), <em>Elgar Encyclopedia of Political Communication</em>. Edward Elgar Publishing. https://doi.org/10.31219/osf.io/emqc9"
+
 
 - title: "Memorial Inumeráveis: combate ao negacionismo, à banalização da morte e a emergência de uma memória subterrânea"
   type: "Book"
@@ -217,12 +242,4 @@
 # Forthcoming
 # =======================
 
-- title: "Dehumanizing language"
-  type: "Forthcoming"
-  author:
-    - Isabella Gonçalves
-  year: 2025
-  status: "Accepted (forthcoming)"
-  pubclosed: "https://doi.org/10.31219/osf.io/emqc9"
-  apa: "Gonçalves, I. (2025). Dehumanizing language. In A. Nai, M. Grömping, & D. Wirz (Eds.), <em>Elgar Encyclopedia of Political Communication</em>. Edward Elgar Publishing. https://doi.org/10.31219/osf.io/emqc9"
 
