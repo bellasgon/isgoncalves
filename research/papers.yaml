@@ -206,7 +206,14 @@
 # =======================
 # Chapters in collections  (use type = Book)
 # =======================
-
+- title: "Who wins the engagement race? Examining normalisation and equalisation theories across 12 Ibero-American countries"
+  type: "Book"
+  author:
+    - Isabella Gonçalves
+  year: Forthcoming
+  pubclosed: "https://www.taylorfrancis.com/books/edit/10.4324/9781003359524/routledge-companion-social-media-politics-axel-bruns-gunn-enli-anders-olof-larsson-jessica-yarin-robinson-tanja-bosch-kateryna-kasianenko"
+  apa: "Fenoll, V., Bene, M., & Gonçalves, I. (2026). Who wins the engagement race? Examining normalisation and equalisation theories across 12 Ibero-American countries. In A. Bruns, G. Enli, A. O. Larsson, J. Y. Robinson, T. Bosch, & K. Kasianenko (Eds.), The Routledge companion to social media and politics (2nd ed.). Routledge."
+  
 - title: "Dehumanizing language"
   type: "Book"
   author:
