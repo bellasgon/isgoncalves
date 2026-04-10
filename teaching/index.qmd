@@ -7,8 +7,8 @@ Courses taught at Johannes Gutenberg University, Mainz
 
 | Term        | Seminar                                             | Topic                                                                                                             | Course Evaluation |
 |-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|------------------:|
-| Winter 2025 | Special Topics in Media History, Law & Politics            | Media Freedom in International Comparison                                                                                 | 1.9               |
-| Winter 2025 | Political Communication            | Journalism in a World of Unequal Media Systems                                                                                   | 2.9               |
+| Winter 2025 | Political Communication            | Media Freedom in International Comparison                                                                                 | 1.9               |
+| Winter 2025 | Special Topics in Media History, Law & Politics            | Examining Media Freedom and Journalism Safety                                                                              | 2.9               |
 | Summer 2025 | Current Topics in Communication Science            | Critical Questions on Platforms and Democracy                                                                                    | 1.5               |
 | Summer 2025 | Media Use Research                                 | News Avoidance                                                                                                                   | 1.1               |
 | Winter 2024 | Special Topics in Media History, Law & Politics    | International Media Development                                                                                                  | 1.9               |
