@@ -38,7 +38,7 @@
   begin: 2020
   end: 2024
   amount: "€64,600"
-  description: "Scholarship awarded for writing the PhD dissertation"
+  description: "DAAD Doctoral Fellowship (German Academic Exchange Service) — competitive, merit-based scholarship awarded for PhD research; selected through peer review (score > 90/100)"
 
 - title: "DAAD German Winter Course"
   type: "Grant"
@@ -51,7 +51,7 @@
   begin: 2018
   end: 2019
   amount: "R$36,000"
-  description: "Scholarship awarded for the master studies"
+  description: "Merit-Based Scholarship, awarded for 1st place ranking"
 
 - title: "Scholarship for Exchange Studies in Germany"
   type: "Grant"
