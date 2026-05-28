@@ -2,12 +2,12 @@
 # Grants
 # =======================
 
-- title: "Travel Grant - DGPuK 2026 Conference in Dortmund"
+- title: "Travel Grant - ECREA 2026 Journalism Section"
   type: "Grant"
   funder: "DAAD"
   amount: "€840"
   begin: 2026
-  description: "Travel Grant to attend to a Conference"
+  description: "Travel Grant to attend the Conference in Gröningen and present the paper \"A Dense Forest of Threats: How Environmental Journalists in Brazil Perceive and Experience Risk\""
 
 - title: "Research stay at the University of Valencia, Spain"
   type: "Grant"
@@ -27,15 +27,15 @@
   begin: 2023
   amount: "€1,050"
   description: "Fellowship for conducting a joint research project with Dr. Yossi David at Ben Gurion University, in Israel"
-    
+
 - title: "Political Communication Division Travel Grant"
-  type: "Grant"    
+  type: "Grant"
   begin: 2023
   amount: "€400"
   description: "Travel Grant awarded for presenting a paper at the International Communication Association Conference in Toronto"
 
 - title: "DAAD Travel Grant"
-  type: "Grant"    
+  type: "Grant"
   begin: 2022
   amount: "€965"
   description: "Travel Grant awarded for presenting a paper at the International Communication Association Conference in Paris"
@@ -53,7 +53,7 @@
   amount: "€3,450"
   description: "Scholarship awarded for an intensive German course"
 
-- title: "FAPEMIG Master’s Scholarship"
+- title: "FAPEMIG Master's Scholarship"
   type: "Grant"
   begin: 2018
   end: 2019
