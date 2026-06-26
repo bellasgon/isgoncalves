@@ -1,0 +1,33 @@
+---
+title: "Participation in the Let's Talk About Politics and Governance Podcast"
+image: lets.png
+twitter-card:
+  card-style: "summary_large_image"
+---
+
+Crises have deepened political divisions, and social media has amplified these tensions. In this podcast, I explain our paper examining Facebook posts from recent elections in Brazil, Colombia, Chile, and Peru. I show a trend in this episode: divisive topics ignite strong, often negative reactions, particularly in countries with high levels of political polarization.
+
+::: callout-note
+## Episode based on a published research paper:
+
+Divisive Issues, Polarization, and Users’ Reactions on Facebook: Comparing Campaigning in Latin America
+
+By Vicente Fenoll, Isabella Gonçalves, and Márton Bene
+
+[<i class="bi bi-journal-text"></i> Open Access](https://www.cogitatiopress.com/politicsandgovernance/article/view/7957){.btn .btn-outline-secondary .btn-sm target="_blank" rel="noopener"}
+
+:::
+
+::: {.ratio .ratio-16x9}
+<iframe
+  src="https://www.youtube.com/embed/rd2iEdmEv4Y?rel=0"
+  title="YouTube video"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  loading="lazy">
+</iframe>
+:::
+
+
+
+

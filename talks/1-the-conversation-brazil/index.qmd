@@ -1,0 +1,47 @@
+---
+title: "Article on The Conversation Brazil: A Amazônia está sob ameaça de desaparecer. Mas quem vive nela ainda não sabe por quê"
+image: https://images.theconversation.com/files/738280/original/file-20260527-57-t7utoy.jpg?ixlib=rb-4.1.0&rect=0%2C642%2C4272%2C1424&q=75&auto=format&w=1920&h=640&fit=crop&dpr=1
+twitter-card:
+  card-style: "summary_large_image"
+toc: false
+---
+
+```{=html}
+<style>
+/* Container do player com margem só embaixo */
+.podcast-embed{
+  max-width:660px;
+  margin: 0 auto 1rem;
+}
+/* Referências com hanging indent (estilo APA) */
+.apa-list p{
+  margin: 0 0 .6rem 0;
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+}
+.apa-list a{
+  text-decoration: none;
+}
+</style>
+```
+
+<p align="center">
+  <img src="article.png" style="max-width: 80%; height: auto;">
+</p>
+
+
+::: callout-note
+[<i class="bi bi-journal-text"></i> Read full media article here](https://theconversation.com/a-amazonia-esta-sob-ameaca-de-desaparecer-mas-quem-vive-nela-ainda-nao-sabe-por-que-283859)
+
+:::
+
+::: {.callout-tip}
+## Article based on a published research paper:
+
+Visualizing the Amazon: Data-Driven Storytelling, Mapping and Audience for Environmental Journalism
+
+By Isabella Gonçalves & Mathias-Felipe de-Lima-Santos
+
+[<i class="bi bi-journal-text"></i> Open Access](https://www.tandfonline.com/doi/full/10.1080/17524032.2026.2668593){.btn .btn-outline-secondary .btn-sm target="_blank" rel="noopener"}
+
+:::

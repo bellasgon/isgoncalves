@@ -1,5 +1,5 @@
 ---
-title: "Talks"
+title: "Media Appearence"
 format:
   html:
     include-in-header:
@@ -19,7 +19,7 @@ listing:
   id: grids
   type: grid
   sort: "date desc"
-  grid-columns: 2
+  grid-columns: 1
   image-height: 330px
 ---
 

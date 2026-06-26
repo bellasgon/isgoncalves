@@ -58,9 +58,9 @@
   {
     "objectID": "talks/index.html",
     "href": "talks/index.html",
-    "title": "Talks",
+    "title": "Media Appearence",
     "section": "",
-    "text": "Participation in the Let’s Talk About Politics and Governance Podcast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParticipation in the Half Time Scholars podcast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Article on The Conversation Brazil: A Amazônia está sob ameaça de desaparecer. Mas quem vive nela ainda não sabe por quê\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParticipation in the Let’s Talk About Politics and Governance Podcast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParticipation in the Half Time Scholars podcast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "transfer/1 - Polcomm Summer School/index.html",
@@ -75,5 +75,40 @@
     "title": "Development of the App Polcomm Teaching",
     "section": "",
     "text": "The Political Communication Teaching Database is a collaborative repository supported by the APSA and ICA Political Communication Divisions and designed by Michael Bossetta and I. Our aim is to facilitate the sharing and exploration of teaching materials in political communication. It allows teachers to upload and access syllabi and course materials across a diverse range of subfields.\nUsers can contribute materials via a shared link (e.g., Google Drive, Dropbox), and all entries are organized in an interactive dashboard, enabling easy filtering by subject, language, and instruction level. This database serves as a resource for scholars looking to enhance their political communication courses with high-quality, peer-shared content.\n\n\n\n\n\n\nMy role in this project:\n\n\n\nIn this project, I was responsible for coding the back-end and the front-end of this interactive dashboard. Initially, I used shiny to develop it. But after I adapted the code to Apps Script in Google to allow html incorporation."
+  },
+  {
+    "objectID": "talks/3-the-conversation-brazil/index.html",
+    "href": "talks/3-the-conversation-brazil/index.html",
+    "title": "Article on The Conversation Brazil: A Amazônia está sob ameaça de desaparecer. Mas quem vive nela ainda não sabe por quê",
+    "section": "",
+    "text": "Note\n\n\n\n Read full media article here\n\n\n\n\n\n\n\n\nArticle based on a published research paper:\n\n\n\nVisualizing the Amazon: Data-Driven Storytelling, Mapping and Audience for Environmental Journalism\nBy Isabella Gonçalves & Mathias-Felipe de-Lima-Santos\n Open Access"
+  },
+  {
+    "objectID": "talks/3-the-conversation-brazil/index.html#read-full-media-article-here",
+    "href": "talks/3-the-conversation-brazil/index.html#read-full-media-article-here",
+    "title": "Article on The Conversation Brazil: A Amazônia está sob ameaça de desaparecer. Mas quem vive nela ainda não sabe por quê",
+    "section": "Read full media article here",
+    "text": "Read full media article here\n\n\n\n\n\n\nArticle based on a published research paper:\n\n\n\nVisualizing the Amazon: Data-Driven Storytelling, Mapping and Audience for Environmental Journalism\nBy Isabella Gonçalves & Mathias-Felipe de-Lima-Santos\n Open Access"
+  },
+  {
+    "objectID": "talks/3-half-time-scholars/index.html",
+    "href": "talks/3-half-time-scholars/index.html",
+    "title": "Participation in the Half Time Scholars podcast",
+    "section": "",
+    "text": "On this episode, I spoke about my PhD research on the stereotypical framing of migrants and refugees in media coverage comparing Brazil and the United Kingdom (UK).\n\n\n\n\n\n\nEpisode based on my dissertation\n\n\n\nDuring my PhD, I have published four different papers on migration framing. You can find the full details of the papers below the episode.\n\n\n\n \n\nDissertation Papers\n\n\nGonçalves, I., & David, Y. (2025). Threats, victims, or heroes? Media frames about migration in the United Kingdom and Brazil. International Communication Gazette, 87(3). https://doi.org/10.1177/17480485241249007.\n\n\nGonçalves, I. (2024). Promoting hate speech by dehumanizing metaphors of immigration. Journalism Practice, 18(2), 265–282. https://doi.org/10.1080/17512786.2023.2212661.\n\n\nGonçalves, I. (2024). Sources and framing: How the citation of different actors predicts the tone of representation on migration issues. Journal of Ethnic and Migration Studies. https://doi.org/10.1080/1369183X.2023.2227346.\n\n\nGonçalves, I., & David, Y. (2022). A systematic literature review of the representations of migration in Brazil and the United Kingdom [Una revisión sistemática de la literatura de las representaciones de la migración en Brasil y Reino Unido]. Comunicar, 71. https://doi.org/10.3916/C71-2022-04."
+  },
+  {
+    "objectID": "talks/1-the-conversation-brazil/index.html",
+    "href": "talks/1-the-conversation-brazil/index.html",
+    "title": "Article on The Conversation Brazil: A Amazônia está sob ameaça de desaparecer. Mas quem vive nela ainda não sabe por quê",
+    "section": "",
+    "text": "Note\n\n\n\n Read full media article here\n\n\n\n\n\n\n\n\nArticle based on a published research paper:\n\n\n\nVisualizing the Amazon: Data-Driven Storytelling, Mapping and Audience for Environmental Journalism\nBy Isabella Gonçalves & Mathias-Felipe de-Lima-Santos\n Open Access"
+  },
+  {
+    "objectID": "talks/2-lets-talk-about/index.html",
+    "href": "talks/2-lets-talk-about/index.html",
+    "title": "Participation in the Let’s Talk About Politics and Governance Podcast",
+    "section": "",
+    "text": "Crises have deepened political divisions, and social media has amplified these tensions. In this podcast, I explain our paper examining Facebook posts from recent elections in Brazil, Colombia, Chile, and Peru. I show a trend in this episode: divisive topics ignite strong, often negative reactions, particularly in countries with high levels of political polarization.\n\n\n\n\n\n\nEpisode based on a published research paper:\n\n\n\nDivisive Issues, Polarization, and Users’ Reactions on Facebook: Comparing Campaigning in Latin America\nBy Vicente Fenoll, Isabella Gonçalves, and Márton Bene\n Open Access"
   }
 ]
