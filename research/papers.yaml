@@ -8,8 +8,9 @@
     - Isabella Gonçalves
     - Marlene Strehler-Schaaf
     - Oliver Quiring
-  year: Forthcoming
+  year: 2026
   journal: "<em>Journalism & Mass Communication Quarterly</em>"
+  pubclosed: "https://doi.org/10.1177/10776990261462529"
   apa: "Gonçalves, I, Strehler-Schaaf, M. & Quiring, O. (Forthcoming). Challenging  Environmental Inequality? Role Perceptions and  Practices of Environmental Journalists in Independent  News Organizations. Journalism & Mass Communication Quarterly."
 
 
@@ -192,6 +193,16 @@
 # =======================
 # Report
 # =======================
+
+- title: "Letter from the editor: data constraints and the future of political communication research"
+  type: "Report"
+  author:
+    - Isabella Gonçalves
+  year: 2026
+  journal: "<em>Political Communication Report</em>, 33"
+  pubopen: "https://politicalcommunication.org/issue/summer-2026-issue-33/"
+  apa: "Gonçalves, I. (2026). Letter from the editor : data constraints and the future of political communication research. <em>Political Communication Report</em>, 33. https://nbn-resolving.org/urn:nbn:de:0168-ssoar-103879-9"
+  note: "Editorial"
 
 - title: "Letter from the Editor: Naming, Seeing and Centering Identity in Political Communication"
   type: "Report"

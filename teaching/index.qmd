@@ -2,21 +2,18 @@
 title: Teaching
 ---
 
-
 Courses taught at Johannes Gutenberg University, Mainz
 
-| Term        | Seminar                                             | Topic                                                                                                             | Course Evaluation |
-|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|------------------:|
-| Winter 2025 | Political Communication            | Media Freedom in International Comparison                                                                                 | 1.9               |
-| Winter 2025 | Special Topics in Media History, Law & Politics            | Examining Media Freedom and Journalism Safety                                                                              | 2.9               |
-| Summer 2025 | Current Topics in Communication Science            | Critical Questions on Platforms and Democracy                                                                                    | 1.5               |
-| Summer 2025 | Media Use Research                                 | News Avoidance                                                                                                                   | 1.1               |
-| Winter 2024 | Special Topics in Media History, Law & Politics    | International Media Development                                                                                                  | 1.9               |
-| Winter 2024 | Political Communication                             | Media Freedom in International Comparison                                                                                        | 2.5               |
-| Summer 2024 | Experiments on Media Reception and Effects         | Methods seminar on norm messages (migration, protests, environment). *Course taught in German with Marlene Strehler-Schaaf.*    | 1.7               |
-| Summer 2024 | Online Media                                       | Platforms, Power and Politics                                                                                                    | 2.3               |
+| Term        | Seminar                                             | Topic                                                                                                             | Syllabus | Evaluation |
+|-------------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|:--------:|------------:|
+| Summer 2026 (in German), Summer 2025 | Current Topics in Communication Science | Theme in 2026: Die Identitätsrolle in der politischen Kommunikation. Theme in 2025: Critical Questions on Platforms and Democracy | [Link](https://bellasgon.github.io/SeminarC_Sommer/) | M = 1.6 |
+| Summer 2026, Summer 2025 | Media Use Research                      | Media Use and News Avoidance                                                                                        | [Link](https://bellasgon.github.io/seminar-mediause/) | M = 1.1 |
+| Winter 2025, Winter 2024 | Political Communication                 | Media Freedom in International Comparison                                                                           | — | M = 2.2 |
+| Winter 2025, Winter 2024 | Special Topics in Media History, Law & Politics | Theme in 2025: Examining Media Freedom and Journalism Safety. Theme in 2024: International Media Development | — | M = 2.4 |
+| Summer 2024 (in German) | Experiments on Media Reception and Effects | Methods seminar on norm messages (migration, protests, environment). *with Marlene Strehler-Schaaf.* | — | 1.7 |
+| Summer 2024 | Online Media                            | Platforms, Power and Politics                                                                                       | — | 2.3 |
 
-*Note: In the German grading system, lower numbers in course evaluations indicate better performance.*
+*Note: M = average evaluation score when a seminar was taught in multiple terms. In the German grading system, lower numbers indicate better performance. Syllabus links are being added progressively as materials become available.*
 
 
 
