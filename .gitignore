@@ -9,3 +9,5 @@ papers2/
 /.luarc.json
 cv.pages
 
+
+**/*.quarto_ipynb
