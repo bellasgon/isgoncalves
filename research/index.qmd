@@ -58,6 +58,17 @@ If want to stay up-to-date on my work, follow me on [Google Scholar](https://sch
 
 ::: {.panel-tabset}
 
+## Collaboration Map
+
+```{=html}
+<link rel="preload" as="fetch" href="papers.yaml" crossorigin="anonymous">
+<link rel="stylesheet" href="collab-map.css">
+<div id="collab-map"></div>
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="collab-map.js"></script>
+```
 
 ## Published Papers
 
