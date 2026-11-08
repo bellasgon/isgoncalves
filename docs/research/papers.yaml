@@ -240,6 +240,14 @@
 # =======================
 # Chapters in collections  (use type = Book)
 # =======================
+- title: "Empowerment through sustainable journalism practices in Africa: A walkthrough of EcoNai+ and Ushahidi digital platforms"
+  type: "Book"
+  author:
+    - Isabella Gonçalves
+  year: 2026
+  pubopen: "https://doi.org/10.4324/9781042042968-7"
+  apa: "Elega, A. A., Munoriyarwa, A., Mesquita, L., Gonçalves, I., & de-Lima-Santos, M.-F. (2026). Empowerment through sustainable journalism practices in Africa: A walkthrough of EcoNai+ and Ushahidi digital platforms. In S. Jamil & M.-F. de-Lima-Santos (Eds.), Sustainable journalism: Reflections from the Global South. Routledge."
+
 - title: "Who wins the engagement race? Examining normalisation and equalisation theories across 12 Ibero-American countries"
   type: "Book"
   author:
